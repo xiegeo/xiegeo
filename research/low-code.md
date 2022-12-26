@@ -31,11 +31,14 @@ Start with specific and move to a more general meta formate later on. Nothing is
 
 Many (all?) programing languanges have a reflect feature to look at it's own code as a datasturcture. This is a necessary component of any compiler or run time, and commonly used by data serialization libraries. As such, all code can be considered metadata. But this is not a metadata first approach and deriving intent from code is either difficult or lacking important domain context. Some languages allow code to be marked up with addtion metadata to improve intergation with tooling, but common metadata definations is usually lacking in scope, so such tooling useally define there own without interopartion build in. This makes end to end use difficult.
 
-A metadata design would reverse the situation. Domain driven design and tooling intergration become first parties. But code will target metadata processing first instand of accomplishing tasks directly, increasing complexty of simple tasks by an order of magnitude, and complex tasks must be subdivided into simpler ones. This cost can be amortized, but only when implemnting a highly complex domain, or cross supporting many domains.
+A metadata design would reverse the situation. Domain driven design and tooling intergration become first parties. But code will target metadata processing first instead of accomplishing tasks directly, increasing complexty of simple tasks by an order of magnitude, and complex tasks must be subdivided into simpler ones. This cost can be amortized, but only when implemnting a highly complex domain, or cross supporting many domains.
 
-Some benefits of metadata driven design: 
- - 
+Additional benefits of metadata driven design: 
+ - A single scource of truth that can be easly processed by people and machine.
+ - Clean sepration of interface (domain knowledge) and implementation.
+ - Easy mock interfaces and data. Test cover typical and extreme cases.
  - Replace stupidly repetitive glue code between different services.
+ - Update domain mode without code change.
 
 ## Conclusion
 
