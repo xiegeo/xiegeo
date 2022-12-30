@@ -7,7 +7,7 @@ Failers can be intentional when there is a conflict of interest. What is a faile
 The numbers assoiated with failers holds no meaning outside this document, and maybe re-indexed on update. 
 
 ## Data Leakage (-2)
-Data leakage is the worst kind of failer because it is un-recoverable. A data leaked is leaked forever so the consiquences may also be immeasurable. Accourding to information theory, 
+Data leakage is the worst kind of failer because it is un-recoverable. A data leaked is leaked forever so the consiquences may also be immeasurable. According to information theory, 
 
 ## Data Corruption (-1)
 
