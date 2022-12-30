@@ -22,7 +22,10 @@ Data leakage is the worst kind of failer because it is un-recoverable. A data le
 ### Prevention
 Do not ask or keep private data unless absolutly necessary. Data should be scoped to it's intended usage and securly deleted after use.
 
-Minimize attack surfaces. Minimize network access and service complexty. Prefer physical over software only solutions.
+Minimize attack surfaces.
+
+- Minimize network access and service complexty. Prefer physical over software only solutions.
+- Data should be encrypted, and only services that must read plain text has access to the key.
 
 Privacy conscious users will gave fake information when possible. Don't fight againt it, follow rule #2. A data corruption is better than a data leakage, and an obvious data corruption is better than a hidden one.
 
@@ -32,22 +35,38 @@ Privacy conscious users will gave fake information when possible. Don't fight ag
 ### Mitigation
 Give immediant discloser, so those effected can take evasive action. Organizations are typically reluctant because of the difficulty of evaluating the scope of data leakage and negative publicity.
 
-### Intentional failers
 
+### Intentional failers
+- Secondary use.
 - By legal order.
 - By whistleblower.
-- Secondary use.
 
 ## Data Corruption (-1)
 A data corruption error could lead to suboptimal or delayed decision making.
 
+Sources of data corruption include input, transformation, and interpretation. The root cause inclued not only bugs and user errors, but also design (confusing user interface) and happenstance (aging hardware, cosmic ray bit flip).
+
+### Prevention
+
+### Detection
+
+### Mitigation
+
 ### Intentional failers
+- To lie.
+- To censor data.
+- Fictitious entry as copyright traps.
 
 ## Denial of Service (0)
 
-### Wait until giving up (0A)
+### Prevention
 
-### Immediate response (0B)
+### Detection
+Quilt obvouse when it happens, but there are too classes:
+
+#### Wait until giving up (0W)
+
+#### Immediate response (0I)
 
 ### Intentional failers
 
@@ -66,3 +85,5 @@ A data corruption error could lead to suboptimal or delayed decision making.
 
 ### Microservices does partial degradation well
 It could, but not automatically, nor should it in all cases. A monolith can also handle partial degradation if designed for it.
+
+### Infinite scaling and runaway cost
