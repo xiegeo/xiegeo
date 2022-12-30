@@ -39,12 +39,30 @@ Give immediant discloser, so those effected can take evasive action. Organizatio
 - Secondary use.
 
 ## Data Corruption (-1)
+A data corruption error could lead to suboptimal or delayed decision making.
+
+### Intentional failers
 
 ## Denial of Service (0)
 
+### Wait until giving up (0A)
+
+### Immediate response (0B)
+
+### Intentional failers
+
+- 410 Service deprecated or shut down.
+- 451 Unavailable for legal reasons.
+
 ## Partial Degradation (1) 
 
+### Intentional failers
+
+- Remove parts of the service to conserve resources.
 
 ## Anti Designs
 
 ### The internal network is secure
+
+### Microservices does partial degradation well
+It could, but not automatically, nor should it in all cases. A monolith can also handle partial degradation if designed for it.
