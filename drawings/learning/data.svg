@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="251.6" height="230.8">
+    <defs>
+        <style>
+            @font-face{font-family:&quot;Virgil&quot;;src:url(https://excalidraw.com/Virgil.woff2)}@font-face{font-family:&quot;Cascadia&quot;;src:url(https://excalidraw.com/Cascadia.woff2)}
+        </style>
+        <path id="A" d="m90.4 49.7.2.3.3.6V52l-.4.6-.5.5-.7.3h-.7l-.7-.1-.6-.4-.4-.6-.3-.6V51q0-.4.2-.7l.5-.6q.2-.3.5-.4.3-.2.7-.2h.7q.4 0 .7.2l.5.5q.3.2.4.6l.2.7v.7l-.4.6-.4.5q-.3.3-.7.4l-.7.1h-.6l-.7-.4-.3-.2-.1-.2-.3-.5-.2-.5v-1l.3-.5.3-.4.4-.3.5-.3h1.1l.5.1.4.3.3.2z"/>
+    </defs>
+    <path fill="#fff" d="M0 0h251.6v230.8H0z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" d="m41.4 27.8-.9 193m1-193-1 193m-30.5-36 231.6-.8m-231.6.9 231.6-1"/>
+    <use xlink:href="#A" fill="#c92a2a"/>
+    <path fill="none" stroke="#364fc7" stroke-dasharray="1.5 7" stroke-linecap="round" stroke-width="1.5" d="M39.6 169.4 230 56.7M42 188.1 236 77.3"/>
+    <g fill="#2b8a3e">
+        <use xlink:href="#A" x="-27.5" y="114.5"/>
+        <use xlink:href="#A" x="-20.2" y="104.4"/>
+        <use xlink:href="#A" x="-5.6" y="110.6"/>
+        <use xlink:href="#A" x="15.2" y="88.2"/>
+        <use xlink:href="#A" x="47.7" y="65.1"/>
+        <use xlink:href="#A" x="94.9" y="43.8"/>
+        <use xlink:href="#A" x="121.8" y="23.6"/>
+        <use xlink:href="#A" x="112.3" y="44.9"/>
+        <use xlink:href="#A" x="80.8" y="48.3"/>
+        <use xlink:href="#A" x="80.8" y="60.6"/>
+        <use xlink:href="#A" x="69.6" y="62.3"/>
+        <use xlink:href="#A" x="45.5" y="81.4"/>
+        <use xlink:href="#A" x="29.8" y="83.1"/>
+        <use xlink:href="#A" x="4.5" y="97.7"/>
+        <use xlink:href="#A" x="132.5" y="23"/>
+    </g>
+    <text x="114.2" y="29" font-family="Virgil, Segoe UI Emoji" font-size="20" style="white-space:pre">Data</text>
+</svg>

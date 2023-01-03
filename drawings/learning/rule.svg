@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251.6" height="230.5">
+    <defs>
+        <style>
+            @font-face{font-family:&quot;Virgil&quot;;src:url(https://excalidraw.com/Virgil.woff2)}@font-face{font-family:&quot;Cascadia&quot;;src:url(https://excalidraw.com/Cascadia.woff2)}
+        </style>
+    </defs>
+    <path fill="#fff" d="M0 0h251.6v230.5H0z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" d="m41.4 27.4-.9 193m1-193-1 193M10 184.7l231.6-1m-231.6 1 231.6-1"/>
+    <path fill="none" stroke="#364fc7" stroke-linecap="round" d="M39.2 182.3 230.6 70.5M39.2 182.3 230.6 70.5"/>
+    <text x="125.1" y="29" font-family="Virgil, Segoe UI Emoji" font-size="20" style="white-space:pre">Rule</text>
+</svg>
