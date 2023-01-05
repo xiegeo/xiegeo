@@ -23,9 +23,16 @@ The numbers defined in this document holds no meaning outside this document, and
 3. Do not proceed after a partial failure unless absolutely necessary.
 4. Treat untested code as having undefined behaviour. Undefined behaviour can fail in the worst way imaginable. Therefor, untested code should be replaced by panics instead of released into production.
 
+Related reading:
+<https://how.complexsystems.fail/> [pdf](https://www.adaptivecapacitylabs.com/HowComplexSystemsFail.pdf)
+
 ## Data Leakage (-2)
 
 Data leakage is the worst kind of failure because it is un-recoverable. A data leak is leaked forever so the consequences may also be immeasurable. Even anonymized data is not guaranteed to be safe. According to information theory, a dataset can not be truly anonymized, because we can not control what other datasets an attacker may have access too, any additional information could unlock data that an attacker could not previously access.
+
+Related reading:
+<https://github.com/veeral-patel/how-to-secure-anything>
+<https://github.com/rmusser01/Infosec_Reference>
 
 ### (-2) Prevention
 
