@@ -22,9 +22,7 @@ The numbers defined in this document holds no meaning outside this document, and
 2. Failures should be automatically mitigated when possible, for example, by presenting a less harmful failure.
 3. Do not proceed after a partial failure unless absolutely necessary.
 4. Treat untested code as having undefined behaviour. Undefined behaviour can fail in the worst way imaginable. Therefor, untested code should be replaced by panics instead of released into production.
-
-Related reading:
-<https://how.complexsystems.fail/> [pdf](https://www.adaptivecapacitylabs.com/HowComplexSystemsFail.pdf)
+5. Any proactive steps taken increase system complexity and there for have a cost. Any protection on one part of the system increase the pressure on other parts [physical example](https://www.google.com/search?q=why+does+building+a+levee+increase+the+risk+of+a+catastrophic+flood+in+the+long+term). Use fuses to fail predictably.
 
 ## Data Leakage (-2)
 
@@ -185,3 +183,12 @@ Choosing the right tech stack can make reaching certain gaols easier. But no tec
 ### Infinite scaling and runaway cost
 
 This is a follow up to bad mitigation against DoS. Monitor resource usage before monitor uptime. Especially for expensive API calls.
+
+## Related reading
+
+<https://how.complexsystems.fail/> [pdf](https://www.adaptivecapacitylabs.com/HowComplexSystemsFail.pdf)
+
+Thoughts:
+
+- Real world system live in a fussy universe. There for, real world systems must live with faults and unforeseen conditions. But the vast majority of subroutines we write in software is modelling an ideal, logical system. The mind set when designing robust systems is different from designing concreate building blocks.
+  
